@@ -1,25 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:shamo/pages/sign_in_page.dart';
+import 'theme.dart';
+import 'pages/splash_page.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: HomePage());
-  }
-}
-
-class HomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text(
-          'Helo, Semuanya',
-          style: GoogleFonts.poppins(fontSize: 50),
-        ),
-      ),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      routes: {
+        '/': (context) => SplashPage(),
+        '/sign-in': (context) => SignInPage()
+      },
     );
   }
 }
