@@ -30,6 +30,7 @@ class _MainPageState extends State<MainPage> {
       return ClipRRect(
         borderRadius: BorderRadius.vertical(top: Radius.circular(30)),
         child: BottomAppBar(
+          color: backgroundColor4,
           shape: CircularNotchedRectangle(),
           notchMargin: 10,
           clipBehavior: Clip.antiAlias,
@@ -37,7 +38,6 @@ class _MainPageState extends State<MainPage> {
             backgroundColor: backgroundColor4,
             currentIndex: currentIndex,
             onTap: (value) {
-              print(value);
               setState(() {
                 currentIndex = value;
               });
@@ -98,7 +98,7 @@ class _MainPageState extends State<MainPage> {
     }
 
     return Scaffold(
-      backgroundColor: backgroundColor1,
+      backgroundColor: currentIndex == 0 ? backgroundColor1 : backgroundColor3,
       floatingActionButton: cartButton(),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: customBottomNav(),
