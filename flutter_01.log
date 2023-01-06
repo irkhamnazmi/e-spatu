@@ -1,0 +1,59 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -d chrome
+
+## exception
+
+WipError: WipError -32000 Target crashed
+
+```
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel master, 3.1.0-0.0.pre.1716, on LangitKetujuh 6.0.15_1, locale
+    id_ID.UTF-8)
+    [32m•[39m Flutter version 3.1.0-0.0.pre.1716 on channel master at
+      /home/irkham/Destop/flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision 6bd3e6e006 (5 bulan yang lalu), 2022-07-18 17:40:07 -0700
+    [32m•[39m Engine revision 45e92fb262
+    [32m•[39m Dart version 2.19.0 (build 2.19.0-6.0.dev)
+    [32m•[39m DevTools version 2.15.0
+
+[32m[✓][39m Android toolchain - develop for Android devices (Android SDK version 33.0.0)
+    [32m•[39m Android SDK at /home/irkham/Android/Sdk
+    [32m•[39m Platform android-33, build-tools 33.0.0
+    [32m•[39m Java binary at:
+      /home/irkham/.local/share/applications/android-studio/jre/bin/java
+    [32m•[39m Java version OpenJDK Runtime Environment (build 11.0.13+0-b1751.21-8125866)
+    [32m•[39m All Android licenses accepted.
+
+[32m[✓][39m Chrome - develop for the web
+    [32m•[39m CHROME_EXECUTABLE = /usr/bin/google-chrome-stable
+
+[32m[✓][39m Linux toolchain - develop for Linux desktop
+    [32m•[39m clang version 12.0.1
+    [32m•[39m cmake version 3.25.1
+    [32m•[39m ninja version 1.11.1
+    [32m•[39m pkg-config version 0.29.2
+
+[32m[✓][39m Android Studio (version 2021.3)
+    [32m•[39m Android Studio at /home/irkham/.local/share/applications/android-studio
+    [32m•[39m Flutter plugin version 71.2.3
+    [32m•[39m Dart plugin version 213.7433
+    [32m•[39m Java version OpenJDK Runtime Environment (build 11.0.13+0-b1751.21-8125866)
+
+[32m[✓][39m Connected device (2 available)
+    [32m•[39m Linux (desktop) • linux  • linux-x64      • LangitKetujuh 6.0.15_1
+    [32m•[39m Chrome (web)    • chrome • web-javascript • Google Chrome 108.0.5359.94
+
+[32m[✓][39m HTTP Host Availability
+    [32m•[39m All required HTTP hosts are available
+
+[32m•[39m No issues found!
+```
