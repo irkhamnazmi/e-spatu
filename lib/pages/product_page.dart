@@ -81,7 +81,9 @@ class _ProductPageState extends State<ProductPage> {
                           width: 154,
                           height: 44,
                           child: TextButton(
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.pushNamed(context, '/cart');
+                            },
                             style: TextButton.styleFrom(
                                 backgroundColor: primaryColor,
                                 shape: RoundedRectangleBorder(
@@ -149,9 +151,14 @@ class _ProductPageState extends State<ProductPage> {
                     Icons.chevron_left,
                   ),
                 ),
-                Icon(
-                  Icons.shopping_bag,
-                  color: backgroundColor1,
+                GestureDetector(
+                  onTap: () {
+                    Navigator.pushNamed(context, '/cart');
+                  },
+                  child: Icon(
+                    Icons.shopping_bag,
+                    color: backgroundColor1,
+                  ),
                 ),
               ],
             ),
