@@ -13,7 +13,7 @@ class ProfilePage extends StatelessWidget {
 
     logout() async {
       final SharedPreferences prefs = await SharedPreferences.getInstance();
-      prefs.setInt('userId', null);
+      prefs.setString('token', "");
 
       Navigator.pushNamedAndRemoveUntil(context, '/sign-in', (route) => false);
     }
