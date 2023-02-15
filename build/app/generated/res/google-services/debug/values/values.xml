@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">287706645190-7j1d5kcg57nqjs0j6dhqfahq3u3l1vm6.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">287706645190</string>
+    <string name="google_api_key" translatable="false">AIzaSyD2iVN5AWP63hqM6iOPFwqengOn0p10lTo</string>
+    <string name="google_app_id" translatable="false">1:287706645190:android:157442437d54acb9b7cdc7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD2iVN5AWP63hqM6iOPFwqengOn0p10lTo</string>
+    <string name="google_storage_bucket" translatable="false">espatu.appspot.com</string>
+    <string name="project_id" translatable="false">espatu</string>
+</resources>

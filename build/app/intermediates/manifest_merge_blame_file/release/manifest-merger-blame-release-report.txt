@@ -1,0 +1,199 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.espatu.shamo"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:3:5-79
+11-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:3:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:4:5-66
+12-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/irkham/.gradle/caches/transforms-3/da285bb13a5f895c4fc6464964fed8ce/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/irkham/.gradle/caches/transforms-3/da285bb13a5f895c4fc6464964fed8ce/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+15
+16    <application
+17        android:name="android.app.Application"
+17-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:7:9-42
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.6.0] /home/irkham/.gradle/caches/transforms-3/1141b72fb8be4e566e7814849b1aa3a2/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+19        android:icon="@mipmap/ic_launcher"
+19-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:8:9-43
+20        android:label="espatu" >
+20-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:6:9-31
+21        <activity
+21-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:9:9-29:20
+22            android:name="com.example.shamo.MainActivity"
+22-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:10:13-41
+23            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+23-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:14:13-163
+24            android:exported="true"
+24-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:11:13-36
+25            android:hardwareAccelerated="true"
+25-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:15:13-47
+26            android:launchMode="singleTop"
+26-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:12:13-43
+27            android:theme="@style/LaunchTheme"
+27-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:13:13-47
+28            android:windowSoftInputMode="adjustResize" >
+28-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:16:13-55
+29
+30            <!--
+31                 Specifies an Android theme to apply to this Activity as soon as
+32                 the Android process has started. This theme is visible to the user
+33                 while the Flutter UI initializes. After that, this theme continues
+34                 to determine the Window background behind the Flutter UI.
+35            -->
+36            <meta-data
+36-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:21:13-24:17
+37                android:name="io.flutter.embedding.android.NormalTheme"
+37-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:22:15-70
+38                android:resource="@style/NormalTheme" />
+38-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:23:15-52
+39
+40            <intent-filter>
+40-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:25:13-28:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:26:17-68
+41-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:26:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:27:17-76
+43-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:27:27-74
+44            </intent-filter>
+45        </activity>
+46        <!--
+47             Don't delete the meta-data below.
+48             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+49        -->
+50        <meta-data
+50-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:32:9-34:33
+51            android:name="flutterEmbedding"
+51-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:33:13-44
+52            android:value="2" />
+52-->/home/irkham/Destop/BWA/flutter/e-spatu/android/app/src/main/AndroidManifest.xml:34:13-30
+53
+54        <service
+54-->[:cloud_firestore] /home/irkham/Destop/BWA/flutter/e-spatu/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:19
+55            android:name="com.google.firebase.components.ComponentDiscoveryService"
+55-->[:cloud_firestore] /home/irkham/Destop/BWA/flutter/e-spatu/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-89
+56            android:directBootAware="true"
+56-->[com.google.firebase:firebase-common:20.0.0] /home/irkham/.gradle/caches/transforms-3/0cf2dc033635e1d42c9cf503c04df1d6/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+57            android:exported="false" >
+57-->[com.google.firebase:firebase-firestore:23.0.0] /home/irkham/.gradle/caches/transforms-3/c6515cc8da65010ecff2c3b64ef9ebda/transformed/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:19:13-37
+58            <meta-data
+58-->[:cloud_firestore] /home/irkham/Destop/BWA/flutter/e-spatu/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+59                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+59-->[:cloud_firestore] /home/irkham/Destop/BWA/flutter/e-spatu/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[:cloud_firestore] /home/irkham/Destop/BWA/flutter/e-spatu/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+61            <meta-data
+61-->[:firebase_core] /home/irkham/Destop/BWA/flutter/e-spatu/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+62                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+62-->[:firebase_core] /home/irkham/Destop/BWA/flutter/e-spatu/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[:firebase_core] /home/irkham/Destop/BWA/flutter/e-spatu/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-firestore:23.0.0] /home/irkham/.gradle/caches/transforms-3/c6515cc8da65010ecff2c3b64ef9ebda/transformed/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:20:13-22:85
+65                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+65-->[com.google.firebase:firebase-firestore:23.0.0] /home/irkham/.gradle/caches/transforms-3/c6515cc8da65010ecff2c3b64ef9ebda/transformed/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:21:17-111
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-firestore:23.0.0] /home/irkham/.gradle/caches/transforms-3/c6515cc8da65010ecff2c3b64ef9ebda/transformed/jetified-firebase-firestore-23.0.0/AndroidManifest.xml:22:17-82
+67            <meta-data
+67-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/irkham/.gradle/caches/transforms-3/da285bb13a5f895c4fc6464964fed8ce/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+68                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+68-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/irkham/.gradle/caches/transforms-3/da285bb13a5f895c4fc6464964fed8ce/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/irkham/.gradle/caches/transforms-3/da285bb13a5f895c4fc6464964fed8ce/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-installations:17.0.0] /home/irkham/.gradle/caches/transforms-3/ec3e41f52a2e7c4235cadb08328c480a/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+71                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+71-->[com.google.firebase:firebase-installations:17.0.0] /home/irkham/.gradle/caches/transforms-3/ec3e41f52a2e7c4235cadb08328c480a/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-installations:17.0.0] /home/irkham/.gradle/caches/transforms-3/ec3e41f52a2e7c4235cadb08328c480a/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+73        </service>
+74
+75        <uses-library
+75-->[androidx.window:window:1.0.0-beta04] /home/irkham/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+76            android:name="androidx.window.extensions"
+76-->[androidx.window:window:1.0.0-beta04] /home/irkham/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+77            android:required="false" />
+77-->[androidx.window:window:1.0.0-beta04] /home/irkham/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+78        <uses-library
+78-->[androidx.window:window:1.0.0-beta04] /home/irkham/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+79            android:name="androidx.window.sidecar"
+79-->[androidx.window:window:1.0.0-beta04] /home/irkham/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+80            android:required="false" />
+80-->[androidx.window:window:1.0.0-beta04] /home/irkham/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+81
+82        <provider
+82-->[com.google.firebase:firebase-common:20.0.0] /home/irkham/.gradle/caches/transforms-3/0cf2dc033635e1d42c9cf503c04df1d6/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+83            android:name="com.google.firebase.provider.FirebaseInitProvider"
+83-->[com.google.firebase:firebase-common:20.0.0] /home/irkham/.gradle/caches/transforms-3/0cf2dc033635e1d42c9cf503c04df1d6/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+84            android:authorities="com.espatu.shamo.firebaseinitprovider"
+84-->[com.google.firebase:firebase-common:20.0.0] /home/irkham/.gradle/caches/transforms-3/0cf2dc033635e1d42c9cf503c04df1d6/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:20.0.0] /home/irkham/.gradle/caches/transforms-3/0cf2dc033635e1d42c9cf503c04df1d6/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+86            android:exported="false"
+86-->[com.google.firebase:firebase-common:20.0.0] /home/irkham/.gradle/caches/transforms-3/0cf2dc033635e1d42c9cf503c04df1d6/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+87            android:initOrder="100" />
+87-->[com.google.firebase:firebase-common:20.0.0] /home/irkham/.gradle/caches/transforms-3/0cf2dc033635e1d42c9cf503c04df1d6/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+88
+89        <receiver
+89-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+90            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+90-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+91            android:enabled="true"
+91-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+92            android:exported="false" >
+92-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+93        </receiver>
+94
+95        <service
+95-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+96            android:name="com.google.android.gms.measurement.AppMeasurementService"
+96-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+97            android:enabled="true"
+97-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+98            android:exported="false" />
+98-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+99        <service
+99-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+100            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+100-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+101            android:enabled="true"
+101-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+103            android:permission="android.permission.BIND_JOB_SERVICE" />
+103-->[com.google.android.gms:play-services-measurement:19.0.0] /home/irkham/.gradle/caches/transforms-3/d91735968fc19b191a2822b01d7c46d6/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+104
+105        <activity
+105-->[com.google.android.gms:play-services-base:17.0.0] /home/irkham/.gradle/caches/transforms-3/24f2b188aa21f80a0f5fce247fd643a2/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+106            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+106-->[com.google.android.gms:play-services-base:17.0.0] /home/irkham/.gradle/caches/transforms-3/24f2b188aa21f80a0f5fce247fd643a2/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+107            android:exported="false"
+107-->[com.google.android.gms:play-services-base:17.0.0] /home/irkham/.gradle/caches/transforms-3/24f2b188aa21f80a0f5fce247fd643a2/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+108            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+108-->[com.google.android.gms:play-services-base:17.0.0] /home/irkham/.gradle/caches/transforms-3/24f2b188aa21f80a0f5fce247fd643a2/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+109
+110        <meta-data
+110-->[com.google.android.gms:play-services-basement:17.0.0] /home/irkham/.gradle/caches/transforms-3/f799be1ca29579b6e4d7363fdc48500f/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+111            android:name="com.google.android.gms.version"
+111-->[com.google.android.gms:play-services-basement:17.0.0] /home/irkham/.gradle/caches/transforms-3/f799be1ca29579b6e4d7363fdc48500f/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+112            android:value="@integer/google_play_services_version" />
+112-->[com.google.android.gms:play-services-basement:17.0.0] /home/irkham/.gradle/caches/transforms-3/f799be1ca29579b6e4d7363fdc48500f/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+113    </application>
+114
+115</manifest>
