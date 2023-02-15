@@ -1,12 +1,25 @@
 import 'package:flutter/material.dart';
+import 'package:shamo/models/message_model.dart';
+import 'package:shamo/models/product_model.dart';
+import 'package:shamo/pages/detail_chat_page.dart';
 import 'package:shamo/theme.dart';
 
 class ChatTile extends StatelessWidget {
+  final MessageModel message;
+  ChatTile(this.message);
+
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.pushNamed(context, '/detail-chat');
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => DetailChatPage(
+              UninitializedProductModel(),
+            ),
+          ),
+        );
       },
       child: Container(
         width: double.infinity,
@@ -32,7 +45,7 @@ class ChatTile extends StatelessWidget {
                             fontSize: 15, fontWeight: medium),
                       ),
                       Text(
-                        'Good night, this item is on',
+                        message.message,
                         style: secondaryTextStyle.copyWith(fontWeight: light),
                         overflow: TextOverflow.ellipsis,
                       ),

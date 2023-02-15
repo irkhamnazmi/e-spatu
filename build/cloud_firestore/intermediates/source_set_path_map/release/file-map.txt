@@ -1,0 +1,15 @@
+io.flutter.plugins.firebase.firestore.cloud_firestore-core-1.6.0-0 /home/irkham/.gradle/caches/transforms-3/1141b72fb8be4e566e7814849b1aa3a2/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-play-services-base-17.0.0-1 /home/irkham/.gradle/caches/transforms-3/24f2b188aa21f80a0f5fce247fd643a2/transformed/jetified-play-services-base-17.0.0/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-window-1.0.0-beta04-2 /home/irkham/.gradle/caches/transforms-3/40ff8c014bc3b03149787e1d45a42dea/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-annotation-experimental-1.1.0-3 /home/irkham/.gradle/caches/transforms-3/a6362f1fb79a6245a27920bb99ff99c3/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-window-java-1.0.0-beta04-4 /home/irkham/.gradle/caches/transforms-3/ed438543a8e9ffa856a2b095c92f0ea3/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-play-services-basement-17.0.0-5 /home/irkham/.gradle/caches/transforms-3/f799be1ca29579b6e4d7363fdc48500f/transformed/jetified-play-services-basement-17.0.0/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-main-6 /home/irkham/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.16.0+1/android/src/main/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-release-7 /home/irkham/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.16.0+1/android/src/release/res
+io.flutter.plugins.firebase.firestore.cloud_firestore-pngs-8 /home/irkham/Destop/BWA/flutter/e-spatu/build/cloud_firestore/generated/res/pngs/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-resValues-9 /home/irkham/Destop/BWA/flutter/e-spatu/build/cloud_firestore/generated/res/resValues/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-rs-10 /home/irkham/Destop/BWA/flutter/e-spatu/build/cloud_firestore/generated/res/rs/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-11 /home/irkham/Destop/BWA/flutter/e-spatu/build/cloud_firestore/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-12 /home/irkham/Destop/BWA/flutter/e-spatu/build/cloud_firestore/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.firestore.cloud_firestore-merged_res-13 /home/irkham/Destop/BWA/flutter/e-spatu/build/cloud_firestore/intermediates/merged_res/release
+io.flutter.plugins.firebase.firestore.cloud_firestore-packaged_res-14 /home/irkham/Destop/BWA/flutter/e-spatu/build/firebase_core/intermediates/packaged_res/release
